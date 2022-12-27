@@ -28,6 +28,7 @@ header{
     text-align: right;
     position: absolute;
     left: -300px;
+    cursor: pointer;
 }
 
 .menu-desktop  a{
@@ -43,7 +44,7 @@ header{
 
 .menu-desktop a:hover{
     background-color: aliceblue;
-    transition: 0.4s;
+    transition: 0.2s;
 }
 
 /*CONFIGURAÇÃO MENU  MOBILE*/
@@ -53,7 +54,7 @@ header{
     text-align: right;
     width: 50%;
     position: absolute;
-    left: -285px;
+    left: 150px;
 }
 
 .menu-mobile i{
@@ -90,3 +91,69 @@ header{
             display:none;
         }
 }
+
+/*SECTION MAIN*/
+
+section.main{
+    background-image: url(./abstract-blue-geometric-shapes-background.jpg);
+    padding: 70px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.bloco{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mini-b{
+    background-color: #d1bf88;
+    width: 24%;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 1%;
+    padding: 30px 20px;
+    flex-wrap: wrap;
+}
+
+.mini-b h2{
+    color: #141412;
+    margin-left: 5px 0;
+    font-size: 14px;
+}
+
+.mini-b:hover{
+    background-color: rgb(179, 177, 64);
+    transition: 0.4s;
+}
+
+/*premios*/
+
+section.premios{
+    background-image: url('./268_Organic_White_Background.jpg');
+    padding: 20px 0;
+    height: 295px;
+    color: #007bff;
+    font-size:20px;
+    border-bottom: solid black;
+}
+
+.conquista{
+    width: 24%;
+    margin-right: 1%;
+    text-align: center;
+    
+}
+
+
+@media screen and (max-width: 768px) {
+             .conquistas{
+                width: 100%;
+                margin-bottom: 20px;
+             }
+}
+
+
